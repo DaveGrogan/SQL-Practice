@@ -15,6 +15,7 @@ INSERT INTO persons
     (fullname, age)
 VALUES
     ("Banana FoFanna", "14");
+
 INSERT INTO persons
     (fullname, age)
 VALUES
@@ -28,7 +29,6 @@ CREATE table hobbies (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     person_id INTEGER,
     name TEXT);
-
 INSERT INTO hobbies
     (person_id, name)
 VALUES
